@@ -47,7 +47,7 @@ namespace CombinationsToFitSum
             // have value smaller than sum. 
 
             var diff = sum - ar[i];
-            while (i < ar.Count() && Math.Abs(diff) >= tolerance)
+            while (i < ar.Count() && Math.Abs(diff) >= 0)
             {
                 // Till every element in the array starting 
                 // from i which can contribute to the sum 
